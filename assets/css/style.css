@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #333333ec;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}   
+
+#box {
+    background-color: #1d1717;
+    height: 700px;
+    width: 600px;
+    border-radius: 16px;
+    box-shadow: 5px 10px 10px black;
+    padding: 40px;
+}
+
+#box h1 {
+    font-size: 80px;
+    font-weight: 1000;
+    margin-bottom: 1rem;
+    border-bottom: 5px solid rgb(107, 216, 79);
+    display: flex;
+    justify-content: center;
+}
+
+#box button {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.562);
+    width: 150px;
+    height: 30px;
+    margin-top: 1rem;
+    border: none;
+    font-size: 20px;
+    transition: .4s;
+    margin-top: 25px;
+    background-color: rgba(238, 229, 229, 0.425);
+    margin-bottom: 2rem;
+    
+}
+
+#box button:hover {
+    background-color: rgb(238, 229, 229);
+    color: black;
+}
+
+.wrapper {
+    display: flex;
+    overflow-x: scroll;
+    width: 550px;
+}
+
+.wrapper::-webkit-scrollbar {
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+    background-color: rgb(217, 217, 224);
+    border-radius: 20px;
+}
+
+.boxNote {
+    background-color: rgb(36, 25, 25);
+    box-shadow: inset 0px 0px 10px black;
+    width: 520px;
+    height: 400px;
+    padding: .5rem;
+    margin-right: 4rem; 
+}
+
+.boxNote textarea {
+    width: 510px;
+    height: 380px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(36, 25, 25);
+    outline: none;
+    border: none;
+    
+}
